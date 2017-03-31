@@ -17,8 +17,8 @@ title: Greate web agency
 email: phillemail89@gmail.com
 description: "This is a great web agency that offers high impact yet affordable web development services. From web design
 to targeted SEO to custom web applications"
-baseurl: demosite/ # the subpath of your site, e.g. /blog
-url: "/phillflippy.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: /demosite # the subpath of your site, e.g. /blog
+url: "phillflippy.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: EadePhill
 github_username:  jekyll
 
