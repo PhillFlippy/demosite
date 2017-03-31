@@ -1,6 +1,7 @@
 ---
 
 title: Benefits of static site generators
+permalink: pretty
 date: 2017-03-30 12:00
 image: https://i.imgur.com/I8VUG2r.png
 lead: 'If there is a lesson to be learned, it is the futility of seeking fulfillment in outer space. We need to judge ourselfs by who we are, not by where we go.'
