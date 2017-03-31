@@ -5,7 +5,7 @@
 
                   <!-- Blog Post -->
                   {% for post in site.posts %}
-                    <h2> <a href="{{ site.baseurl }}{{ post.url }}"> {{ post.title }}</a></h2>
+                    <h2> <a href="{{ site.url }}{{ post.url }}"> {{ post.title }}</a></h2>
                     <p class="lead">by <a href="#">{{ post.author }}</a></p>
                       <p><span class="glyphicon glyphicon-time"></span> Posted on {{ post.date | date: "%B %d, %y"}}</p>
                       {% if page.image %}
@@ -13,7 +13,7 @@
                       <hr  />
                       {% endif %}
                       {{ post.excerpt}}
-                      <a class="btn btn-primary" href="{{ site.baseurl }}{{ post.url }}">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
+                      <a class="btn btn-primary" href="{{ site.url }}{{ post.url }}">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
                       <hr />
                       {% endfor %}
 
